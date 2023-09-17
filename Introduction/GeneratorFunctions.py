@@ -16,3 +16,18 @@ def squares():
         yield i**2
 for square in squares():
     print(square)
+
+def all_even():
+    n = 0
+    while True:
+        yield n
+        n += 2
+
+even_number_generator = all_even()
+
+for i in range(5):
+    even_number = next(even_number_generator)
+    print(even_number)
+
+print("And Again ...")
+print(next(even_number_generator))
