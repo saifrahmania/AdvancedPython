@@ -122,3 +122,18 @@ files = glob.glob("C:\\Users\\Admin\\Documents\\GitHub\\AdvancedPython\\ModuleTw
 for file in files:
     print(file)
 
+import math
+print (math.pi)
+
+from math import sqrt
+print(sqrt(81))
+
+from math import *
+print(pi)
+
+import math as m
+print(m.pi)
+
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
