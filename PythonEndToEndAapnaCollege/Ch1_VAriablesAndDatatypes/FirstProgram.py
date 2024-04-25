@@ -97,80 +97,84 @@
 # print("Logical NOT: ",not a>b)
 # print("Logical NOT: ",not a<b)
 
-# Bitwise operators
+# # Bitwise operators
 
-a = 5
-b = 3
-print("Binary of A: ",bin(a))
-print("Binary of B: ",bin(b))
-print("Bitwise AND: ",a&b)
-print("Bitwise OR: ",a|b)
-print("Bitwise XOR: ",a^b)
-print("Bitwise NOT: ",~a)
-print("Bitwise Left Shift: ",a<<b)
-print("Bitwise Right Shift: ",a>>b)
+# a = 5
+# b = 3
+# print("Binary of A: ",bin(a))
+# print("Binary of B: ",bin(b))
+# print("Bitwise AND: ",a&b)
+# print("Bitwise OR: ",a|b)
+# print("Bitwise XOR: ",a^b)
+# print("Bitwise NOT: ",~a)
+# print("Bitwise Left Shift: ",a<<b)
+# print("Bitwise Right Shift: ",a>>b)
 
-# Identity operators
+# # Identity operators
 
-a = 5
-b = 3
+# a = 5
+# b = 3
 
-print("Identity is: ",a is b)
-print("Identity is not: ",a is not b)
+# print("Identity is: ",a is b)
+# print("Identity is not: ",a is not b)
 
-# Membership operators
+# # Membership operators
 
-name = "Saifur Rahman"
-print("Saifur" in name)
-print("Rahman" not in name)
+# name = "Saifur Rahman"
+# print("Saifur" in name)
+# print("Rahman" not in name)
 
-# Type conversion
+# # Type conversion
 
-a = 5
-b = 3
-c = 3.5
-d = "5"
-e = "3"
-f = "3.5"
-g = True
-h = False
-i = 0
-j = 1
-k = 0.0
-l = 1.0
-m = "True"
-n = "False"
-o = "0"
-p = "1"
-q = "0.0"
-r = "1.0"
-print("Type of A: ",type(a))
-print("Type of B: ",type(b))
-print("Type of C: ",type(c))
-print("Type of D: ",type(d))
-print("Type of E: ",type(e))
-print("Type of F: ",type(f))
-print("Type of G: ",type(g))
-print("Type of H: ",type(h))
-print("Type of I: ",type(i))
-print("Type of J: ",type(j))
-print("Type of K: ",type(k))
-print("Type of L: ",type(l))
-print("Type of M: ",type(m))
-print("Type of N: ",type(n))
-print("Type of O: ",type(o))
-print("Type of P: ",type(p))
-print("Type of Q: ",type(q))
+# a = 5
+# b = 3
+# c = 3.5
+# d = "5"
+# e = "3"
+# f = "3.5"
+# g = True
+# h = False
+# i = 0
+# j = 1
+# k = 0.0
+# l = 1.0
+# m = "True"
+# n = "False"
+# o = "0"
+# p = "1"
+# q = "0.0"
+# r = "1.0"
+# print("Type of A: ",type(a))
+# print("Type of B: ",type(b))
+# print("Type of C: ",type(c))
+# print("Type of D: ",type(d))
+# print("Type of E: ",type(e))
+# print("Type of F: ",type(f))
+# print("Type of G: ",type(g))
+# print("Type of H: ",type(h))
+# print("Type of I: ",type(i))
+# print("Type of J: ",type(j))
+# print("Type of K: ",type(k))
+# print("Type of L: ",type(l))
+# print("Type of M: ",type(m))
+# print("Type of N: ",type(n))
+# print("Type of O: ",type(o))
+# print("Type of P: ",type(p))
+# print("Type of Q: ",type(q))
 
-# Type casting
+# # Type casting
 
-add = c + float(d)
-print("Addition of C and D: ",add)
-sub = c - float(e)
-print("Subtraction of C and E: ",sub)
-boolean = bool(m)
-print("Boolean of M: ",boolean)
-string_conversion = str(g)
-print("String conversion of G: ",type(string_conversion))
+# add = c + float(d)
+# print("Addition of C and D: ",add)
+# sub = c - float(e)
+# print("Subtraction of C and E: ",sub)
+# boolean = bool(m)
+# print("Boolean of M: ",boolean)
+# string_conversion = str(g)
+# print("String conversion of G: ",type(string_conversion))
 
-# Time stamp 2 hours 20 minutes 12 seconds
+# # Time stamp 2 hours 20 minutes 12 seconds
+
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
+print("True" if first_number>second_number else "False")
